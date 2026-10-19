@@ -1,0 +1,21 @@
+* text=auto
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ts text eol=lf
+*.layout text eol=lf
+*.bat text eol=crlf
+*.dds binary
+*.png binary
+*.qm binary
+*.cel binary
+*.top binary
+*.mrk binary
+# Preserve exact bytes checked by the manifest on every operating system.
+traducoes/** -text
+compatibilidade/** -text
+conteudo/** -text
+interface/qt/** -text

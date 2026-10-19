@@ -1,0 +1,27 @@
+name: Texto ou tradução
+description: Sugira uma correção com contexto.
+title: "[Tradução] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versão da tradução e do OpenMW
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: NPC, local, missão e texto atual
+      description: Inclua o ID da entrada se souber. Uma captura de tela ajuda.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Tradução sugerida e motivo
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Mods e outras observações

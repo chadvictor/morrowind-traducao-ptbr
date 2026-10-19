@@ -1,0 +1,30 @@
+{
+  "entries": 52190,
+  "script_sources_changed": 1761,
+  "addtopic_references_migrated": 274,
+  "topic_count": 2098,
+  "cell_names": 1423,
+  "ui": {
+    "yaml": 455,
+    "mygui": 23,
+    "qt": 529,
+    "fallback": 63
+  },
+  "dialogues_with_explicit_links": 20083,
+  "dialogues_with_additional_topic_labels": 9508,
+  "additional_labels": 13002,
+  "approved_segments": 52380,
+  "runtime_assertions": 3223,
+  "dialogue_scripts": [
+    15570,
+    15570
+  ],
+  "general_scripts": [
+    1206,
+    1207
+  ],
+  "preexisting_error": "Museum",
+  "full_playthrough": false,
+  "human_review_complete": false,
+  "initial_translation": "AI assisted; targeted editorial decisions and technical validation"
+}

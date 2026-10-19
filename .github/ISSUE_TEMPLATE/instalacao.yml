@@ -1,0 +1,31 @@
+name: Instalação ou funcionamento
+description: Relate uma falha de instalação, interface ou missão.
+title: "[Problema] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Sistema, versão do OpenMW e versão da tradução
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Resultado esperado e resultado observado
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Mensagem de erro, hashes ou captura
+      description: Remova caminhos pessoais. Não anexe arquivos comerciais, saves privados ou credenciais.
+  - type: textarea
+    id: mods
+    attributes:
+      label: Lista de mods e se foi usado um jogo novo

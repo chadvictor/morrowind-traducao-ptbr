@@ -1,0 +1,515 @@
+{
+  "format": 1,
+  "version": "0.1.0-beta.1",
+  "engine": "OpenMW 0.51.0",
+  "openmw_revision": "f4bec41444214a7903bebd178389ca22ca13f646",
+  "masters": [
+    {
+      "name": "Morrowind.esm",
+      "source_sha256": "5c3c8c2cbd20e25901b59b3ece33d36b7ef0e3d60ad8d11828bcc61a5ead1647",
+      "output_sha256": "08e9a3ac18e66389e2e16cc0d84545a9547d920fd6456dd1b238fe33931b0b9e",
+      "counts": {
+        "dialogos": 19348,
+        "interface": 876,
+        "journal": 1217,
+        "livros": 532,
+        "nomes-descricoes": 5745,
+        "scripts": 1261,
+        "topicos": 1298
+      }
+    },
+    {
+      "name": "Tribunal.esm",
+      "source_sha256": "2ace511f23cc2a9ddd5f3aa59c7919789b9378cf4b17c8ae3375dd6b782f3f2b",
+      "output_sha256": "b93a4da2dd00506346342eb6146acbd40d5df1d4349de977e721aff66628a677",
+      "counts": {
+        "dialogos": 3930,
+        "journal": 421,
+        "livros": 48,
+        "nomes-descricoes": 721,
+        "scripts": 318,
+        "topicos": 213
+      }
+    },
+    {
+      "name": "Bloodmoon.esm",
+      "source_sha256": "bd27090d0e6ad4c1bf1abc83f1a2dac56fcc82cae7bfe8263c413fb301801357",
+      "output_sha256": "619a8c0b439aa97e43538b194287b73b2e603f201afceaea43fdf6d36e93b4e8",
+      "counts": {
+        "dialogos": 4040,
+        "interface": 45,
+        "journal": 2393,
+        "livros": 42,
+        "nomes-descricoes": 877,
+        "scripts": 182,
+        "topicos": 187
+      }
+    }
+  ],
+  "catalogs": {
+    "traducoes/Morrowind/dialogos/001.jsonl": {
+      "sha256": "e5a4a53e8e62bbf1dc5eb257a25bbbd0fe79315293496cdb1acb3d308f590538",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/002.jsonl": {
+      "sha256": "cb03bafc3132b4b568c15969cf41972853ab61da4977b03315c08c30e2b0e218",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/003.jsonl": {
+      "sha256": "4c4ae462e87cef7dfed97eda731c0abd8dd203a9c4b0709e73ff269d41f8e4bb",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/004.jsonl": {
+      "sha256": "0327bfe68be680337da17045b83ddbb37cb33677c40471e09566fa043570533a",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/005.jsonl": {
+      "sha256": "b3b8235300d98b90e20f5bd5827ebd79c272b804cfa5b20da5c707beb66b4030",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/006.jsonl": {
+      "sha256": "e9832f6729b22117a0fceb5262331140215ca21ace8f8272e102f0222f076b58",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/007.jsonl": {
+      "sha256": "7bbcdb2a209a237c67193410e652197496e91bb24cca85a4a9b2ee4e18451316",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/008.jsonl": {
+      "sha256": "1ccdd120510a56fdcccf434be987668b7c28ed2536fc671432a67cb7a8accd9c",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/009.jsonl": {
+      "sha256": "6adac9538fb67769ef484cafeaefac30b62b55f071d941d5085d775a45fe3491",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/010.jsonl": {
+      "sha256": "24ef02a9d24f4ca97bf317b86590f18c27d4da437bfab015257fe24be56bbb10",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/011.jsonl": {
+      "sha256": "b5aacd06a3188b4ae1d7667481e15875cd772b0bb2c2be490d3ba22be8587102",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/012.jsonl": {
+      "sha256": "78d01f31d595cdbffceec7eb3aab0b4b0e484f9e457a178cd1e87f187ae93364",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/013.jsonl": {
+      "sha256": "fd97e8af89f0824258bdbd4c43314bc10cfe4f5b2f730a9e17c30bdb3dc761ee",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/014.jsonl": {
+      "sha256": "dfc8bdb52c4341380ba87cceb1b0424ffeae767a5320223ca0dadf7ae90142b9",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/015.jsonl": {
+      "sha256": "89d47e19c9d6feb015daf2edf348a32617aa09d7d85a03135a0e935f5042e84e",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/016.jsonl": {
+      "sha256": "f0dbb3a517db2a4034b40efa16246a2b5312266cece83b1e82b800ca8b3381da",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/017.jsonl": {
+      "sha256": "f35c8979da4bf7978b42bde2b698e9a5c7dacd0aba21d2ad565a4845f805f5da",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/018.jsonl": {
+      "sha256": "a6167130ce761de98e2a177fd2bc398bcc1b70d952f99d02f7f76d1926853b6c",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/019.jsonl": {
+      "sha256": "85ff7fbdc919355148d8cb3b0f5b928e378f4cca5924c03ca223a28164ad13c6",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/020.jsonl": {
+      "sha256": "dbf153c0ba316de787907dcf396bf343c6faf77199a80e33bcf46f3f406e533f",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/021.jsonl": {
+      "sha256": "02ff9abfaceb5e20edff68f77cc02dc9402229f538fb2989715cec97897df90a",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/022.jsonl": {
+      "sha256": "5c1f322c3782093fc2fe5f371b51207e5319511e7e78a08af6c627f09dbcd366",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/023.jsonl": {
+      "sha256": "bba2b9e680790f07453c27c66bc94e48b64b14aabb608510910c13ba64589171",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/024.jsonl": {
+      "sha256": "2fe302756d0d6c424b385638e4961208566a94e286e303b2a1af9571e3194be1",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/025.jsonl": {
+      "sha256": "604c4b1546b2e4c6a352eacb189e753a821ff7dfe2cf3c47369b8dcd4b46488d",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/026.jsonl": {
+      "sha256": "a4299011086113c142737d6007e763734200b744ece0289fece7b29e26374407",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/027.jsonl": {
+      "sha256": "b800c84ce1d3d7910b3043566ebb41914a44018d26628255096c8ef184c14c37",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/028.jsonl": {
+      "sha256": "4897ee123238b179c6dc3ef78024e3b3cef246fff3c198472829aedd19e317ba",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/029.jsonl": {
+      "sha256": "7ec7a2e5ff0a677ae7ace092421ecd22b8be422b5ecb303a953a3166ed292c40",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/030.jsonl": {
+      "sha256": "0c4c4874a267834cf5bcc4e39504efd80be28d97dc0546311eae9a0ec797fadb",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/031.jsonl": {
+      "sha256": "c2a734eb664a1f4f0467398ebf7cba486f3c1970508e08415a71550f7eb32699",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/032.jsonl": {
+      "sha256": "c75bc7b3b69594577e339e7cf1c7a71b7210783b4d8bf9e8ef094376ef1f9242",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/033.jsonl": {
+      "sha256": "63624760560b160468ec3535fbcef82d3ab09e712721845daff656974c6c2354",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/034.jsonl": {
+      "sha256": "fd609f61645e288684bac196d0eec3088e91f98a26e831ab5259f4b99fb67dac",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/035.jsonl": {
+      "sha256": "0876530c7f2889163e6dd7433747422ede29d8d2b2dfef026bbf50264526cbf9",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/036.jsonl": {
+      "sha256": "424298af8aacf319fc6a5bbefb571c9864a4154afaa00cef0fe5c5df725383c3",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/037.jsonl": {
+      "sha256": "79aaede3051fdf803dc4d1ad4ac85072da2873581cd6eee9bc7c50700c74dff7",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/038.jsonl": {
+      "sha256": "b4036dd56b78cbe2f39b73f0fa489975483dac88cd2aa59e6c76e0b499489c78",
+      "entries": 500
+    },
+    "traducoes/Morrowind/dialogos/039.jsonl": {
+      "sha256": "f8a774b9b25aa23084be26623ecd16c11fa605612f24cc75510ccae43d8c7958",
+      "entries": 348
+    },
+    "traducoes/Morrowind/interface/001.jsonl": {
+      "sha256": "976d5411c2884daa6ffa6c1b5f4bc5606d815e1b03f322e043eecd5d6ba719e8",
+      "entries": 500
+    },
+    "traducoes/Morrowind/interface/002.jsonl": {
+      "sha256": "f30bc9848220bbfdc283f4a30e929f44dcc2f39bd75b0451a2153d486b64a0f2",
+      "entries": 376
+    },
+    "traducoes/Morrowind/journal/001.jsonl": {
+      "sha256": "5b46f2a9017fbe1dcc9a4f229cc748653403c3c32b81e9d69585ceb8753dc4c0",
+      "entries": 500
+    },
+    "traducoes/Morrowind/journal/002.jsonl": {
+      "sha256": "adf82a3f8c99c9ed8dbf494242d4a4224b80d5aa7df992b0b3dbfc6782130209",
+      "entries": 500
+    },
+    "traducoes/Morrowind/journal/003.jsonl": {
+      "sha256": "768c3123f4f5e291295d926402cdf75b7e0e70cbbe4cdd93779a6f1e69c86143",
+      "entries": 217
+    },
+    "traducoes/Morrowind/livros/001.jsonl": {
+      "sha256": "83c10baabd4c58094f4e05a92597d891b0abe989dd88df22a55ad209cfb3b804",
+      "entries": 500
+    },
+    "traducoes/Morrowind/livros/002.jsonl": {
+      "sha256": "4edf9ae1484170251475f5f1e227eec351a08aa0509c12cd98284eacd8956ae9",
+      "entries": 32
+    },
+    "traducoes/Morrowind/nomes-descricoes/001.jsonl": {
+      "sha256": "8844ad6e18919622c2e31c09df392762d25ef7ef44d70ce1a9f485a277dfed15",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/002.jsonl": {
+      "sha256": "a3902db021f9c1d8d1da97900f3f30e08c6cc09e64b7ae404c03940061b8c124",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/003.jsonl": {
+      "sha256": "e5886f8071659a146ad6886f222bbfae34307c6e53e1a20ae4e74a82b4c2e827",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/004.jsonl": {
+      "sha256": "4e9b5a5078dcb5cd4dae9722e61fe53f703b87a22ae01beed52f1caf8b02774f",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/005.jsonl": {
+      "sha256": "0bed08cc852e0af1968c2b219f46b9769e4c56d3b811b6c47be7a0bc0dc4a6cb",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/006.jsonl": {
+      "sha256": "300df48c1ab2bd10c20619bc61c42dfb70162fda1184f8e034d516249fccb1bd",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/007.jsonl": {
+      "sha256": "a09723af07abf66a5640ced801dc7d593c7374adde2da0543b8b243b2cc34f1e",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/008.jsonl": {
+      "sha256": "6eadfaa4a6cac44089d75676c08f01194c7567afe39fda7ed9f1494eb3b2767c",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/009.jsonl": {
+      "sha256": "d859d6ce6cd447a863b7653aa3ea26321302da271df40fe9139292f3b8d3a176",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/010.jsonl": {
+      "sha256": "824efa6fff9d543f5db33d1561ae7eab32e3c32e0157d379672f2295ff320834",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/011.jsonl": {
+      "sha256": "db7474427bef92ebbcecec70ae7ec70b25b51ead45090157e5caac3cc3c429c4",
+      "entries": 500
+    },
+    "traducoes/Morrowind/nomes-descricoes/012.jsonl": {
+      "sha256": "64e98122f6cd71718c5fa2c346d970c1d3d8e2ec93e27d0a872a923f16fbe287",
+      "entries": 245
+    },
+    "traducoes/Morrowind/scripts/001.jsonl": {
+      "sha256": "b06914ca31ae0fde3c728239401db59031bae8d4302790ca621584d7c5eba61f",
+      "entries": 500
+    },
+    "traducoes/Morrowind/scripts/002.jsonl": {
+      "sha256": "9263d4484eff072913a0e5b6019f8b6756d7e1b0b89a6cf0be786c9df98397f8",
+      "entries": 500
+    },
+    "traducoes/Morrowind/scripts/003.jsonl": {
+      "sha256": "a91b8b917018438953e9d7bab99cbecc7568526065a421aff767053d3aa06a6b",
+      "entries": 261
+    },
+    "traducoes/Morrowind/topicos/001.jsonl": {
+      "sha256": "7899ff820228d2de27167a71a93eefdea1a41540e84491d13ee8ad0a99648013",
+      "entries": 500
+    },
+    "traducoes/Morrowind/topicos/002.jsonl": {
+      "sha256": "11c68fae2839461c7cb7507380ba10faf3519e17c18f7381ad1a917de91efe7b",
+      "entries": 500
+    },
+    "traducoes/Morrowind/topicos/003.jsonl": {
+      "sha256": "fe62cb3e48e585a9e63dcdc766619d4881144bb77df83872dff4676f6401e18a",
+      "entries": 298
+    },
+    "traducoes/Tribunal/dialogos/001.jsonl": {
+      "sha256": "edd6336b038a52734371ab95069e856a54e166eb23948ee6a36bdd790a045d5b",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/002.jsonl": {
+      "sha256": "94f4c2f1cb6c38766aab3c04732cc2f6d0e96240db3134ab984f1e20cc7eeaee",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/003.jsonl": {
+      "sha256": "ae033ceb897112c80a9cbb9d695d0710f72e58f0a1f4769dc9f27165980a5726",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/004.jsonl": {
+      "sha256": "6e18b95ee76aa4f6a804b1d8f462875d25e00d3ae3b0b42782ec368421c0f9e6",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/005.jsonl": {
+      "sha256": "42512cad4789240d2230608a5d1752e8415ca9683ba34683b2bcacda6c393e63",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/006.jsonl": {
+      "sha256": "2a85216eced6bf2bb7cab1be6e81dfdcb1dc31d1a8fe07cf6356e508f19fb477",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/007.jsonl": {
+      "sha256": "5da48ff27114381102e01b8c8fdc987bd25856e158eae11e24aa700ed6697e7d",
+      "entries": 500
+    },
+    "traducoes/Tribunal/dialogos/008.jsonl": {
+      "sha256": "c10279d7c676cacc7b9917ed29c4b6ea0f67f9b6181358124ddf038f43739fa8",
+      "entries": 430
+    },
+    "traducoes/Tribunal/journal/001.jsonl": {
+      "sha256": "ba1d14ff227ce080ebf14d4a25245567ad1db5615761f13e2480e7526a40e844",
+      "entries": 421
+    },
+    "traducoes/Tribunal/livros/001.jsonl": {
+      "sha256": "1d7c6f2612aa18c3e0e67ba1eddd7dd806409c5350a2a4562d757e8491cdfd7e",
+      "entries": 48
+    },
+    "traducoes/Tribunal/nomes-descricoes/001.jsonl": {
+      "sha256": "5e0a50ce1421efcc5d268dac864f2ee3f0fbc371df45f5562eb496155d587155",
+      "entries": 500
+    },
+    "traducoes/Tribunal/nomes-descricoes/002.jsonl": {
+      "sha256": "79a8930e33307b82900eaed6f361d70a96971e72c1014b3cb5eb6e4f5526b928",
+      "entries": 221
+    },
+    "traducoes/Tribunal/scripts/001.jsonl": {
+      "sha256": "c3e66062d36bf4b7d45cedd60c2ad18eea9ea16ae5e07c69113602dd11136190",
+      "entries": 318
+    },
+    "traducoes/Tribunal/topicos/001.jsonl": {
+      "sha256": "22183008fa7efd3152f3e8e368a07b7b18a293fe623372819f62463a1b8de15d",
+      "entries": 213
+    },
+    "traducoes/Bloodmoon/dialogos/001.jsonl": {
+      "sha256": "7eec31e1ce57bb305b80d0bb5da83fa62647c0b6554a66758f779fab605bf999",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/002.jsonl": {
+      "sha256": "64d220bb588a110cfedc26da84fd523fecaafbf6e8e65ae37624c9f2f58fe2ad",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/003.jsonl": {
+      "sha256": "6b92f6aa8e5a6e7060b1ad657a0e0afaf1b36bef310e7b7f8e2017b2ca310f0d",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/004.jsonl": {
+      "sha256": "e7d71b252257ffd1d96c100aaa02d9ae5db3adb65fd493348db228b0dc4df466",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/005.jsonl": {
+      "sha256": "5cef80b34a92d13c95499ed854acd6701fc0913e9524222e92689430c69b0d40",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/006.jsonl": {
+      "sha256": "00e744a495d213e556a4f8bcbeca6b7d1c0827f7b9260333630dc86d879037ce",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/007.jsonl": {
+      "sha256": "33459850cf9fc461fca09aec2374ed2f8cce975e8d6dd700e4ba93e6b5673547",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/008.jsonl": {
+      "sha256": "60ec852f8ea682201e9c2bc6efdf10330e27094df2ba6cde7a3f0b7399ccc82b",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/dialogos/009.jsonl": {
+      "sha256": "fcec3650af35995f89e58fdde1eba73245d1ef41d98c02beb99a30d4318be365",
+      "entries": 40
+    },
+    "traducoes/Bloodmoon/interface/001.jsonl": {
+      "sha256": "546ae8831e1487e90d410a9f4236689b6ffc45e84960433e516f6a314c859a47",
+      "entries": 45
+    },
+    "traducoes/Bloodmoon/journal/001.jsonl": {
+      "sha256": "46c049fbd3b78276e4dec27c3fac858bfffea76b15d6a42934df9f782a9b0b56",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/journal/002.jsonl": {
+      "sha256": "fa1795e798f28e52a6829c0e3aabd3057db10e85fffa6f44deb1d7e8edaf63c9",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/journal/003.jsonl": {
+      "sha256": "4701b94f8459b737c408b5391701a604e144343caa8b38540d9ddf2df24de144",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/journal/004.jsonl": {
+      "sha256": "90b16ec6da3d8d9c33d2550d2374f76ad05f1c03c27f019e7e557e75526714f0",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/journal/005.jsonl": {
+      "sha256": "40079cf158d15d9130013cde9412f6c7e2e944b318c2af1325668d9cc23818f4",
+      "entries": 393
+    },
+    "traducoes/Bloodmoon/livros/001.jsonl": {
+      "sha256": "98cfa10e2b1c8c97147ed75d99e157910cc38e6d1d53fc2d81d468774afd6a6c",
+      "entries": 42
+    },
+    "traducoes/Bloodmoon/nomes-descricoes/001.jsonl": {
+      "sha256": "9fef2baae30249b8482e6ae4b514b3251a1c2418b907136264ea68f87a3af5d7",
+      "entries": 500
+    },
+    "traducoes/Bloodmoon/nomes-descricoes/002.jsonl": {
+      "sha256": "c114a4a5d789ee3b0b28c9eda6029418806ad9dff54296496fb59934cfb001ef",
+      "entries": 377
+    },
+    "traducoes/Bloodmoon/scripts/001.jsonl": {
+      "sha256": "7ebcb381efe838ccded962bba7c7f8eb4c45aaa67df49ae06d1ff7b185453a95",
+      "entries": 182
+    },
+    "traducoes/Bloodmoon/topicos/001.jsonl": {
+      "sha256": "acd36c08a89ebdc7b259e400a68df01313045d192b87f82d8c86b32b55770232",
+      "entries": 187
+    }
+  },
+  "assets": {
+    "conteudo/data/Bloodmoon.cel": "88f64085eae080563ca52b1ea3220f8dec8ac7b965048b6ebc38eab6b03ad9a7",
+    "conteudo/data/Bloodmoon.mrk": "8302b0c2f71c9496bcbe0e3850b5c9d8c7725f37d8ab94e765cc574d78b792af",
+    "conteudo/data/Bloodmoon.top": "20bdab141b670e4d6ad8a0394dea09aedcac430b746cff14cc20f7efb21bc5a9",
+    "conteudo/data/l10n/Calendar/pt_BR.yaml": "bea9047c03f528e2b7bb4c443de9fd40d353bb4978c2f88d8f7c965627e05cef",
+    "conteudo/data/l10n/Interface/pt_BR.yaml": "8b30e2a71c734980d30afa802a556eaa24d4de7aef34e77a672786b9414f4a82",
+    "conteudo/data/l10n/OMWCamera/pt_BR.yaml": "5aa446d34780a734902f383620865aca2dd1b8bd8936e876824219abd261730f",
+    "conteudo/data/l10n/OMWCombat/pt_BR.yaml": "1c22d679be157a8400f7f8e2578dfdedec51ac5e482ac70a183a99585b3ffbca",
+    "conteudo/data/l10n/OMWControls/pt_BR.yaml": "2f3426a4630cc7b212f46a315075dcf3617f5e4da455bca0167ae8271dbbd2f0",
+    "conteudo/data/l10n/OMWEngine/pt_BR.yaml": "8db8f4f7d38b63dbbdacea688e35d9122e40a3532de26892c745d359ae0d3e68",
+    "conteudo/data/l10n/OMWMusic/pt_BR.yaml": "bcba087534d9322460f814b8682bb2b033125d944fe740221806845c51745a09",
+    "conteudo/data/l10n/OMWShaders/pt_BR.yaml": "2e66ce1505d3bb28639f9423a223ba7974bb28f9e096c0392f7ba492992762df",
+    "conteudo/data/Morrowind.cel": "88f64085eae080563ca52b1ea3220f8dec8ac7b965048b6ebc38eab6b03ad9a7",
+    "conteudo/data/Morrowind.mrk": "8302b0c2f71c9496bcbe0e3850b5c9d8c7725f37d8ab94e765cc574d78b792af",
+    "conteudo/data/Morrowind.top": "20bdab141b670e4d6ad8a0394dea09aedcac430b746cff14cc20f7efb21bc5a9",
+    "conteudo/data/mygui/openmw_alchemy_window.layout": "5b28d604a5a512c7774f5c063faa41e2e04600cbe926717dc25876c73a3b98ea",
+    "conteudo/data/mygui/openmw_chargen_class_description.layout": "81dee9d2203f1568fe0981c88d0f81a232d345533ac7190977736d946d6d404b",
+    "conteudo/data/mygui/openmw_chargen_generate_class_result.layout": "05aa5a8dfd48ff34ac894fc3ebf6a2b8e3b93dc694f73159079d21237b91f5ec",
+    "conteudo/data/mygui/openmw_chargen_race.layout": "f578f909b1c22f3534b5d7f49b780bd6fc608dd330be663dad82dcd6311f768d",
+    "conteudo/data/mygui/openmw_console.layout": "56ba8983a1ab5b02d1a919144b3f8e33d8382fd438fe32022215664d788cdb3b",
+    "conteudo/data/mygui/openmw_edit_effect.layout": "6b689e880528ca9a744189b25915dfd16f4b7c99fa71fec817993f2c3566edd2",
+    "conteudo/data/mygui/openmw_enchanting_dialog.layout": "63087ef9af4c63b759d9e2edc16a5cde2eb9698fdfbc8bd5fcf3ee2824d8bc14",
+    "conteudo/data/mygui/openmw_postprocessor_hud.layout": "cdf4eed3cdff3be6ffeeb4f2a1b0718580dc166a5e6044ac34e4bf2729a7ff48",
+    "conteudo/data/mygui/openmw_trade_window.layout": "ac6a77bee235e7fc802dbcbd48eb1a0b2b336c4961c865849dc5d1cc3ba5609b",
+    "conteudo/data/mygui/openmw_wait_dialog.layout": "0ba44bd1364104cb5a719a62670f342aeb1d0c8c792afbf6b7a4de9e5bc64292",
+    "conteudo/data/textures/menu_credits.dds": "ed43338bd265fe62fa725d3479883dc5eed252b31767c7e70edf9dca390a269e",
+    "conteudo/data/textures/menu_credits_over.dds": "977841da135a85eb043caeca64c68ca9abf60bfa899dfe19649d002e52ce49fe",
+    "conteudo/data/textures/menu_credits_pressed.dds": "d843dfebbe307f00b9def8cf052941a60bb15df452841ba7689958f33b7cdccb",
+    "conteudo/data/textures/menu_exitgame.dds": "4b30fe8fc8aef81bc51de41fc5bcbb943334075efec2f96e0da9f6c3e7189ee5",
+    "conteudo/data/textures/menu_exitgame_over.dds": "3c479a0ed5085b44db85606ca52426152fdfd2e929321c72da405d1849a496e6",
+    "conteudo/data/textures/menu_exitgame_pressed.dds": "e7532f1f4044379794ecf53dbcabff4cb7db89d2b34e03991a801045e8307b79",
+    "conteudo/data/textures/menu_loadgame.dds": "fbcbcca0743bd83f2c65aadd8914df8760184fc2882a8a61d1959c318454cb79",
+    "conteudo/data/textures/menu_loadgame_over.dds": "638d8f0a46e40202886eadab0b00c25f9eb9e871796aa490eff3e60a7fe4b3cf",
+    "conteudo/data/textures/menu_loadgame_pressed.dds": "fdb69c9ade512b0f0d6db7ed9eeea2f6db2f0b298cb0deaa6bde31ccbff947cc",
+    "conteudo/data/textures/menu_newgame.dds": "9a998ced1f05f23a088ca7801085df5e8e428890919dd94a8576acd4bccab259",
+    "conteudo/data/textures/menu_newgame_over.dds": "c3167d97d889e6ad2e554cfa710ee45e75858213c0831ab2293be9178be0b056",
+    "conteudo/data/textures/menu_newgame_pressed.dds": "838080e4597355f3abf53e99b7de281a896adea0573e88321aee60644cba4985",
+    "conteudo/data/textures/menu_options.dds": "fe978342b9ece774a58c0d1779ddba97bef2e7c8155fbae864c29973bfb03f52",
+    "conteudo/data/textures/menu_options_over.dds": "628826399ed6b60f5f97da8ff2392b69cd4db163914639ec96e7015b2e808fc2",
+    "conteudo/data/textures/menu_options_pressed.dds": "5f0a837a751546e07bce240a631eddd6db5ce216ac0337da77c338a389fa855e",
+    "conteudo/data/textures/menu_return.dds": "e10c7f869addc32f12e87a9bcf56ddd0fc86772fe1d2615d54460a983afddeee",
+    "conteudo/data/textures/menu_return_over.dds": "b3ebe2d3c6f2fef58745d087f031fc298ecd1cbab857c4e21a59b7875ea01e20",
+    "conteudo/data/textures/menu_return_pressed.dds": "fb13d34322d88280ccbf9156f4c8ae93069965d244b892ed355da2072f2e764c",
+    "conteudo/data/textures/menu_savegame.dds": "e777cfa192e3d543fcf2d4091b784c689fee64bbb78142f84edb6a3bb666707e",
+    "conteudo/data/textures/menu_savegame_over.dds": "2c1680a13dfe38bde620331737285aacb43ff1106b05bc8c803d1594d554e4d7",
+    "conteudo/data/textures/menu_savegame_pressed.dds": "81b7f8efeb04024911f5e22a29cb489b3faffe24dcd36c092266de6e2e4bc69b",
+    "conteudo/data/Tribunal.cel": "88f64085eae080563ca52b1ea3220f8dec8ac7b965048b6ebc38eab6b03ad9a7",
+    "conteudo/data/Tribunal.mrk": "8302b0c2f71c9496bcbe0e3850b5c9d8c7725f37d8ab94e765cc574d78b792af",
+    "conteudo/data/Tribunal.top": "20bdab141b670e4d6ad8a0394dea09aedcac430b746cff14cc20f7efb21bc5a9",
+    "conteudo/fallbacks.json": "f0235db48ad3ce4a885230213f5e3fcb4d151d87f00f31ed02fd36732c730fd7",
+    "conteudo/resources/translations/components_pt_BR.qm": "f30351c85311938c9802b3e8ead5dc225d34ffabe623a4a1c5f450669c6f5cc9",
+    "conteudo/resources/translations/launcher_pt_BR.qm": "939f03df01c48ca5b1d511d47399c5f6adc07a9432d149b5d65156d81db30e45",
+    "conteudo/resources/translations/wizard_pt_BR.qm": "993fc0b7e533e7cda19e249e031b50bd6a20a36ac05d8c05b0be89fc7e8021c3"
+  },
+  "qt_sources": {
+    "interface/qt/components_pt_BR.ts": "22660631d622cc28aede09b0a134d3512d3eb5a7bc2c9d376eb0cf757d7b844c",
+    "interface/qt/launcher_pt_BR.ts": "f48459687d19253db890bdfc6209e72b2c192e3677564289383874e371e13f27",
+    "interface/qt/wizard_pt_BR.ts": "18df32396c650f67eea2c434ea19dd6db1c973b73d425f6e9e54b6c2e3d3acd3"
+  },
+  "engine_inputs": {
+    "vfs/mygui/openmw_alchemy_window.layout": "b1cb43d4b08512bfd2f6f51eca43b5b28819e7faba25ad526d7007ef1fbcf2ae",
+    "vfs/mygui/openmw_chargen_class_description.layout": "5e2a30e7a3597dfefcf2d0d4233935cf74ff4fda339fcc0c640cfd15981f5d7d",
+    "vfs/mygui/openmw_chargen_generate_class_result.layout": "14e38b1e229ace896e8e92515ff6aad37ec8da0ade17cb1b6228fddfca802cf6",
+    "vfs/mygui/openmw_chargen_race.layout": "d500462f4480e8c1dafc508a7f03cbd0e71c1c42ba822e82224c7a56eee03869",
+    "vfs/mygui/openmw_console.layout": "143a28aae1c785d40d9a9520f55f54b67a998f5957982fde2e5ed220d67c322b",
+    "vfs/mygui/openmw_edit_effect.layout": "285d3279a2e2ea5c269e483647327755d20d91abf9151b7a2be5c49fdd1636be",
+    "vfs/mygui/openmw_enchanting_dialog.layout": "e13dc0bd0a226b3990ff12ad5f46f90e9de3bf69aa8aeaa64876530769c6c57f",
+    "vfs/mygui/openmw_postprocessor_hud.layout": "e9babf545a7242f5672a5a985e061cd34121df8004fecc6f7869bac8c47eca7a",
+    "vfs/mygui/openmw_trade_window.layout": "631e6185898b963bfbd4fb068d35dac60a14e8478792d32cbf234978857404a7",
+    "vfs/mygui/openmw_wait_dialog.layout": "e0d0025e1bf13992367c7c9ec96b9c54d0618456932e443baeee5f698c73ae8b",
+    "vfs/fonts/MysticCards.ttf": "7e9025faddb1f4eb93716f6110338b20cca73b9bc5d207549c125cd72bce8d20"
+  }
+}

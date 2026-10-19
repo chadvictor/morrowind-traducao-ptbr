@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Morrowind em português do Brasil</title>
+  <desc id="desc">Capa original do projeto, com montanhas em tons escuros e lettering dourado. Tradução gratuita para OpenMW.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#131a1c"/><stop offset="1" stop-color="#342c26"/></linearGradient>
+    <linearGradient id="gold"><stop stop-color="#e2c898"/><stop offset="1" stop-color="#ae8956"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="16" fill="url(#sky)"/>
+  <g fill="none" stroke="#a9885b" opacity=".25">
+    <circle cx="1000" cy="130" r="90"/><circle cx="1000" cy="130" r="105"/>
+    <path d="M1000 12v236M882 130h236"/>
+  </g>
+  <path d="M550 360 790 160 858 215 941 93 1007 189 1082 165 1200 284V360Z" fill="#40392f"/>
+  <path d="M620 360 805 230 871 270 942 140 1013 270 1110 225 1200 310V360Z" fill="#242a27"/>
+  <path d="M0 322Q270 278 510 320T960 310L1200 280V360H0Z" fill="#10191a"/>
+  <rect x="54" y="48" width="51" height="3" fill="#cfb17c"/>
+  <text x="54" y="84" font-family="Arial,sans-serif" font-size="15" letter-spacing="3" fill="#d1bc99">UM PROJETO DA COMUNIDADE</text>
+  <text x="50" y="166" font-family="Georgia,serif" font-size="67" letter-spacing="5" fill="url(#gold)">MORROWIND</text>
+  <text x="54" y="212" font-family="Arial,sans-serif" font-size="27" fill="#f0e9dc">em português do Brasil</text>
+  <text x="54" y="267" font-family="Arial,sans-serif" font-size="16" fill="#bcb9ad">Morrowind · Tribunal · Bloodmoon</text>
+  <rect x="54" y="296" width="190" height="29" rx="14" fill="#26382e"/>
+  <text x="149" y="316" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="1" fill="#d2dfca">GRATUITO · OPENMW</text>
+  <text x="270" y="316" font-family="Arial,sans-serif" font-size="12" letter-spacing="1" fill="#b5ac9e">BETA COMUNITÁRIA</text>
+</svg>
