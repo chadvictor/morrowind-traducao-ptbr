@@ -44,14 +44,17 @@ python scripts/mwbr.py validate
 python -m unittest discover -s tests -v
 python scripts/release.py --check-only
 python scripts/release.py
+python scripts/build_mod.py --game "D:\Jogos\Morrowind" --output "dist/mod-0.1.0-beta.2" --zip
 ```
 
-O empacotador cria em `dist/` o ZIP completo e `SHA256SUMS.txt`. O mesmo ZIP contém fontes de contribuição e instalador. O diretório `dist/` não entra no Git; os dois arquivos são anexados à release.
+O `release.py` cria o ZIP opcional `fontes-python` e seu checksum. O `build_mod.py` lê os originais locais e cria o ZIP **`openmw-mod` para jogadores**, com checksum próprio. O mod contém ESP, mapas, recursos, extras, fontes Qt e licenças, sem `.esm`, BSA, executáveis ou scripts Python. Anexe os dois ZIPs e os respectivos checksums à release, deixando o mod como download recomendado. `dist/` não entra no Git.
+
+O exportador compara o estado efetivo dos três masters originais + ESP com o dos masters localizados. DIALs alterados são removidos e reconstruídos; PNAM/NNAM são normalizados para a ordem final do OpenMW, preservando IDs, filtros e scripts. Não execute limpeza automática das exclusões DIAL. Além dos testes sintéticos, execute o pacote em perfil isolado com os **masters originais**, sem a pasta antiga de masters traduzidos mascarando o resultado.
 
 O inventário público recusa extensões comerciais/bancos comuns, caminhos pessoais e padrões reconhecidos de credenciais. Isso complementa a revisão manual, não substitui uma auditoria universal de dados sensíveis. Inspecione o ZIP antes do upload.
 
 ## Publicar no GitHub
 
-Somente um mantenedor com autorização deve publicar. Faça commit, envie a branch e crie uma tag e release de pré-lançamento apontando para o commit testado. Use as notas da versão em `docs/RELEASE-0.1.0-beta.1.md` como ponto de partida.
+Somente um mantenedor com autorização deve publicar. Faça commit, envie a branch e crie uma tag e release de pré-lançamento apontando para o commit testado. Use as notas da versão em `docs/RELEASE-0.1.0-beta.2.md` como ponto de partida.
 
 O CI roda apenas testes estruturais e sintéticos. Ele não contém nem baixa o jogo. Não use um selo verde do CI como promessa de campanha completa ou revisão humana integral.

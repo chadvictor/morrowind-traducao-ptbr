@@ -6,6 +6,10 @@ Obrigado por ajudar a melhorar a tradução. Revisão de linguagem, testes de mi
 
 Abra uma [issue](https://github.com/chadvictor/morrowind-traducao-ptbr/issues/new/choose). Informe a versão da tradução e do OpenMW, NPC/local/missão, texto atual, sugestão e o que aconteceu. Uma captura ajuda a localizar a frase. Se houver mods, liste-os. Não publique chaves, logs com informações pessoais, saves privados ou arquivos comerciais.
 
+## Dependências para editar e testar
+
+Para editar pelo GitHub e abrir PR, basta o navegador. Para validar e gerar um mod local, use **Python 3.10+** (biblioteca padrão), os três masters originais compatíveis e OpenMW 0.51.0 para o teste no motor. Qt `lrelease` só é necessário ao editar os catálogos Qt. **Jogadores não precisam dessas ferramentas.**
+
 ## Corrigir um texto e abrir PR
 
 1. Faça um fork e crie uma branch, por exemplo `revisao-dialogo-fargoth`.
@@ -57,12 +61,12 @@ Os arquivos derivados do OpenMW mantêm sua licença original. Não introduza as
 ## Testar uma alteração no jogo
 
 ```powershell
-python scripts/mwbr.py build --development --game "D:\Jogos\Morrowind" --openmw "D:\Jogos\OpenMW" --output "D:\Mods\MWBR-teste-da-minha-correcao"
+python scripts/build_mod.py --development --game "D:\Jogos\Morrowind" --output "D:\Mods\MWBR-teste-da-minha-correcao"
 ```
 
-O modo `--development` permite textos editados; continua exigindo originais compatíveis e preservação de identidades. Ele **não substitui validação de links e scripts no motor**. Teste em perfil separado, com backups; ative usando o comando documentado em [INSTALACAO.md](docs/INSTALACAO.md).
+O modo `--development` permite textos editados; continua exigindo originais compatíveis e preservação de identidades. Ele **não substitui validação de links e scripts no motor**. Teste em perfil separado, com backups; adicione a pasta `Data Files` gerada e marque `Morrowind_PTBR.esp` como documentado em [INSTALACAO.md](docs/INSTALACAO.md).
 
-Se alterou `.ts`, informe também `--lrelease "CAMINHO\lrelease.exe"` de uma instalação Qt compatível para gerar os `.qm` atualizados no pacote local. O instalador padrão usa os catálogos compilados da release. Mantenedores devem regenerar os hashes de release somente após os testes descritos em [MANUTENCAO.md](docs/MANUTENCAO.md).
+Se alterou `.ts`, recompile os `.qm` em `conteudo/resources/translations/` com Qt `lrelease` antes de gerar o mod, conforme o guia de manutenção. O gerador do mod copia esses catálogos compilados; não invoca Qt automaticamente. Mantenedores devem regenerar os hashes de release somente após os testes descritos em [MANUTENCAO.md](docs/MANUTENCAO.md).
 
 ## Licenciamento das contribuições
 

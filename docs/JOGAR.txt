@@ -1,0 +1,66 @@
+MORROWIND PT-BR — MOD PARA OPENMW 0.51.0 — 0.1.0-beta.2
+
+PARA JOGAR: não precisa de Python, IA, conta ou chave de API.
+Precisa de Morrowind GOTY em inglês, Tribunal, Bloodmoon e OpenMW 0.51.0.
+Testado no Windows com os masters originais da edição Steam.
+
+1. Extraia o ZIP inteiro numa pasta permanente.
+2. No OpenMW Launcher, Data Files > Data Directories > Append/Adicionar,
+   adicione a pasta "Data Files" DESTE MOD, depois dos dados do jogo.
+3. Marque Morrowind_PTBR.esp depois de:
+   Morrowind.esm > Tribunal.esm > Bloodmoon.esm > Morrowind_PTBR.esp
+4. Use a codificação English / Windows-1252 (encoding=win1252).
+5. Comece uma partida nova. Não misture com outra tradução.
+
+Não é necessário copiar por cima dos arquivos originais.
+O plugin exige os três masters. Eles não estão incluídos neste ZIP.
+
+INTERFACE COMPLETA (AJUSTES ADICIONAIS, SEM PYTHON)
+Feche o jogo e o launcher. Faça backup do openmw.cfg e settings.cfg do
+seu perfil (normalmente Documentos > My Games > OpenMW).
+
+- settings.cfg: dentro da seção [General], ajuste
+  preferred locales = pt_BR, en
+  Em [GUI], subtitles = true habilita legendas.
+  Extras/settings-idioma.cfg é um exemplo: mescle as opções existentes;
+  não substitua seu arquivo inteiro nem duplique seções.
+
+- openmw.cfg: copie as linhas de Extras/openmw-fallbacks.cfg.
+  Substitua linhas que já tenham a mesma chave fallback, sem duplicá-las.
+  Preserve todas as demais opções. Isso traduz perguntas de classe,
+  mensagens de nível e calendário (63 textos de configuração do motor).
+  Não substitua seu openmw.cfg inteiro pelo fragmento.
+
+LAUNCHER/ASSISTENTE (OPCIONAL)
+Copie os três .qm de Extras/launcher/translations para a pasta
+resources/translations do seu OpenMW 0.51.0, guardando eventuais arquivos
+anteriores. Windows pode pedir permissão. O idioma depende também do
+locale do sistema. Esse extra não é necessário para traduzir o jogo.
+Fontes Qt editáveis e licença GPL acompanham este ZIP.
+
+SE VOCÊ USAVA A BETA.1 / MASTERS TRADUZIDOS
+Desative a instalação anterior antes de ativar o ESP. Os três masters
+carregados agora devem ser os originais. O DESINSTALAR.bat antigo ou a
+reversão manual documentada restaura o perfil antigo. Não há migração
+de saves validada. A remoção pelo BAT antigo pode exigir Python.
+
+DESATIVAR
+Desmarque o ESP e remova a pasta do mod da lista Data Directories.
+Reverta os extras de configuração e launcher usando seus backups.
+Preserve saves: alternar idiomas numa partida existente não foi validado.
+
+ESTADO DA TRADUÇÃO
+Beta comunitária: tradução inicial com auxílio de IA, sem revisão humana
+integral nem campanha completa testada. Não inclui dublagem/vídeos.
+Mods de diálogo e scripts precisam de avaliação de compatibilidade.
+Somente OpenMW 0.51.0 é o alvo validado, não Morrowind.exe/MWSE.
+
+LICENÇAS
+Mod de fã gratuito e não oficial para quem possui o jogo. Não inclui
+masters completos, BSA, vozes ou executáveis comerciais. A MIT cobre
+o código/documentação autorais; não licencia a propriedade da Bethesda.
+Recursos derivados do OpenMW mantêm GPL. Leia THIRD_PARTY_NOTICES.md.
+
+GUIA COMPLETO E CONTRIBUIÇÕES
+https://github.com/chadvictor/morrowind-traducao-ptbr/blob/main/docs/INSTALACAO.md
+https://github.com/chadvictor/morrowind-traducao-ptbr

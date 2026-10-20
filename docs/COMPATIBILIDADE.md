@@ -1,8 +1,8 @@
 # Compatibilidade
 
-**Alvo desta beta:** Windows 10/11, OpenMW 0.51.0 e Morrowind GOTY em inglês com Tribunal e Bloodmoon, sem outros plugins no perfil selecionado.
+**Alvo desta beta:** Windows 10/11, OpenMW 0.51.0 e Morrowind GOTY em inglês com Tribunal e Bloodmoon, com os três masters originais e `Morrowind_PTBR.esp`, inicialmente sem outros mods no perfil.
 
-Os arquivos reconhecidos são da edição Steam testada. A compra do jogo em outra loja não é um problema por si só: o que determina a compatibilidade técnica são os bytes originais. Ainda não validamos outras edições ou versões. O instalador recusa hashes diferentes antes de escrever os masters traduzidos.
+Os arquivos reconhecidos são da edição Steam testada. A compra do jogo em outra loja não é um problema por si só: o que determina a compatibilidade técnica são os bytes originais. Ainda não validamos outras edições ou versões. Os geradores Python recusam hashes diferentes. O ESP pronto não executa verificação de hashes: use a edição validada; não force dependências ausentes ou presuma suporte a outra edição.
 
 | Arquivo original | SHA-256 |
 |---|---|
@@ -12,7 +12,7 @@ Os arquivos reconhecidos são da edição Steam testada. A compra do jogo em out
 
 No PowerShell, confira um arquivo com `Get-FileHash -Algorithm SHA256 "D:\Jogos\Morrowind\Data Files\Morrowind.esm"`.
 
-Os recursos MyGUI e a fonte usada no menu também são conferidos. As fontes OpenMW usadas na análise correspondem à revisão `f4bec41444214a7903bebd178389ca22ca13f646`. Todos os hashes exigidos estão em [manifesto.json](../compatibilidade/manifesto.json).
+A reconstrução Python verifica os recursos MyGUI; os recursos da release foram conferidos no OpenMW indicado. As fontes OpenMW usadas na análise correspondem à revisão `f4bec41444214a7903bebd178389ca22ca13f646`. Todos os hashes exigidos estão em [manifesto.json](../compatibilidade/manifesto.json).
 
 ## Por que OpenMW
 
@@ -23,9 +23,11 @@ Os nomes internos de células são preservados; os rótulos visíveis vêm das t
 ## Saves, mods e atualizações
 
 - Use um jogo novo. Não há migração validada dos tópicos de saves em inglês.
-- Esta primeira release exige um perfil sem outros plugins, com Morrowind → Tribunal → Bloodmoon. O instalador não reorganiza seus mods.
+- A ordem validada é Morrowind → Tribunal → Bloodmoon → Morrowind_PTBR.esp, sem outros mods. O plugin não reorganiza a lista por você.
 - Mods com diálogo, journal, `AddTopic` ou overrides dos mesmos registros precisam de avaliação própria. Mesmo mods sem ESP podem sobrescrever interface e mapas.
 - Atualizar OpenMW pode exigir nova validação dos recursos e catálogos Qt. Preserve backups e não edite o manifesto para ignorar incompatibilidades.
-- Os scripts de montagem usam Python padrão e podem ser adaptados a outros sistemas, mas o fluxo de instalação e o teste de execução desta release são para Windows.
+- O mod pronto não exige Python. Seu teste de execução foi no Windows; a CI em Linux testa apenas as ferramentas, sem executar o jogo.
 
 Para solicitar suporte a uma edição, abra uma issue com versão/loja e os três hashes. **Não anexe masters, arquivos BSA ou executáveis do jogo.**
+
+O plugin contém exclusões de DIAL seguidas dos grupos reconstruídos, necessárias à renomeação de tópicos. Não remova essas exclusões com ferramentas de limpeza automática: elas evitam tópicos antigos e respostas misturadas. Filtros, scripts e ordem final das respostas são verificados pelo exportador.

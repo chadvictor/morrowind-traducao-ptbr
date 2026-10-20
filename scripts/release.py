@@ -37,7 +37,7 @@ def main():
         return
     require(frozen,'Catálogos editados; um mantenedor precisa validar e fechar os hashes da nova versão antes de empacotar')
     dest=ROOT/'dist';dest.mkdir(exist_ok=True)
-    archive=dest/f"morrowind-ptbr-openmw-{manifest['version']}.zip"
+    archive=dest/f"morrowind-ptbr-fontes-python-{manifest['version']}.zip"
     folder=archive.stem
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for path in files:
@@ -48,7 +48,7 @@ def main():
     with zipfile.ZipFile(archive) as z:
         require(z.testzip() is None,'ZIP corrompido')
     checksum=hashlib.sha256(archive.read_bytes()).hexdigest()
-    (dest/'SHA256SUMS.txt').write_text(checksum+'  '+archive.name+'\n',encoding='ascii')
+    archive.with_suffix('.zip.sha256').write_text(checksum+'  '+archive.name+'\n',encoding='ascii')
     print(f'{archive.name}: {archive.stat().st_size/1048576:.2f} MiB; SHA256 {checksum}')
 
 if __name__=='__main__':main()

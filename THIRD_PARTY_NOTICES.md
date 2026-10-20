@@ -8,7 +8,7 @@ Os scripts offline em `scripts/`, testes, documentação e contribuições autor
 
 Morrowind, Tribunal, Bloodmoon, seus textos originais, personagens, marcas e demais conteúdos pertencem aos respectivos titulares, incluindo Bethesda Softworks/ZeniMax. Esta é uma tradução de fã não oficial. O projeto não afirma patrocínio, aprovação ou afiliação com os titulares.
 
-Os catálogos contêm textos traduzidos para aplicação aos originais do próprio jogador. Não distribuímos masters completos, BSA, executáveis, filmes ou vozes. A licença MIT do nosso código não concede licença para o jogo ou para o conteúdo subjacente às traduções. É necessário possuir uma cópia do jogo. O uso de um formato de patch não equivale a uma declaração de autorização dos titulares.
+Os catálogos contêm textos traduzidos para aplicação aos originais do próprio jogador. A release também oferece um plugin ESP de tradução, com os registros necessários às alterações e à preservação de diálogos; seus três masters comerciais permanecem dependências externas. Não distribuímos masters completos, BSA, executáveis, filmes ou vozes. A licença MIT do nosso código não concede licença para o jogo ou para o conteúdo subjacente às traduções. É necessário possuir uma cópia do jogo. O uso de um formato de patch não equivale a uma declaração de autorização dos titulares.
 
 ## OpenMW
 
@@ -27,3 +27,11 @@ Não distribuímos o arquivo da fonte no repositório ou ZIP. A cópia local de 
 ## Ferramentas utilizadas durante o desenvolvimento
 
 O trabalho usou o parser PE do REA como apoio à investigação, parsers de TES3, ferramentas OpenMW e modelos de IA via OpenRouter. Esses serviços não são dependências da instalação. Nenhum código do cliente privado de IA, credencial, banco de trabalho ou pacote REA é incluído nesta publicação.
+
+## Distribuição do mod
+
+O manual oficial de Morrowind GOTY descreve plugins `.esp` distribuídos pela internet e ativados junto aos arquivos originais. O `license.txt` da edição Steam examinada admite distribuir “New Materials” gratuitamente a compradores autorizados, sujeito às condições do contrato; a definição contratual se refere ao material criado com o editor. Não interpretamos isso como autorização irrestrita para qualquer arquivo derivado ou ferramenta de geração.
+
+Por isso, esta distribuição é um mod de fã gratuito que depende do jogo adquirido pelo usuário, sem masters completos, arquivos BSA ou executáveis comerciais. Formato ESP e presença de outros mods na comunidade não constituem, por si só, aprovação específica dos titulares. A MIT não cobre a propriedade intelectual subjacente da Bethesda. Consulte os termos fornecidos com a sua edição.
+
+Referência de formato: [manual oficial GOTY distribuído pela Steam](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/22320/manuals/mwgoty_pcmanual.pdf). Referência de instalação: [documentação oficial do OpenMW](https://openmw.readthedocs.io/en/stable/reference/modding/mod-install.html).

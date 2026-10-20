@@ -1,5 +1,15 @@
 # Histórico de versões
 
+## 0.1.0-beta.2
+
+- Mod pronto para jogadores: `Morrowind_PTBR.esp`, mapas e recursos, sem Python.
+- Plugin consolidado com os três masters como dependências, sem distribuir masters completos.
+- Guia de pasta de dados, ativação no launcher e extras de interface.
+- Ferramentas Python e reconstrução local mantidas como opção avançada separada.
+- Comparação estrutural de registros/diálogos, teste no OpenMW e testes sintéticos de merge de INFO.
+
+O conteúdo editorial é o mesmo da beta.1. Desative a instalação antiga antes de usar o novo formato. A validação não inclui migração de saves ou campanha completa.
+
 ## 0.1.0-beta.1
 
 Primeira publicação comunitária para OpenMW 0.51.0 no Windows.

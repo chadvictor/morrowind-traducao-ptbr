@@ -4,7 +4,7 @@
 
 O catálogo de trabalho reuniu **52.190 entradas** dos três masters e das interfaces, dividido em **52.380 segmentos**. A aprovação desses segmentos é um estado do processo de tradução e revisão com IA. Não significa revisão humana de todas as frases.
 
-A publicação usa o resultado final da reinserção: **43.694 campos realmente modificados**, separados em arquivos JSONL. Entradas sem alterações, partes de um mesmo script, tabelas de localização e recursos da interface não têm correspondência de um para um com esse total. Os originais de cada jogador fornecem os campos inalterados.
+A publicação usa o resultado final da reinserção: **43.694 campos realmente modificados**, separados em arquivos JSONL. Entradas sem alterações, partes de um mesmo script, tabelas de localização e recursos da interface não têm correspondência de um para um com esse total. Os catálogos guardam só alterações. No mod pronto, cada registro sobrescrito inclui também os campos estruturais necessários; os masters do jogador continuam fornecendo o restante do jogo.
 
 | Categoria no patch | Morrowind | Tribunal | Bloodmoon |
 |---|---:|---:|---:|
@@ -46,3 +46,11 @@ O pacote reconstruído pelo instalador público também foi ativado em um perfil
 ## Como ajudar na próxima versão
 
 Revise diálogos no contexto de quem fala, teste missões do início ao fim, confira links e títulos do diário, reporte cortes de texto e proponha um vocabulário consistente. Registre o nome do NPC, local, missão, versão e uma captura quando possível. Evite declarar “tudo funciona” com base somente em o jogo abrir.
+
+## Mod convencional da beta.2
+
+O ESP de 16.122.012 bytes foi gerado dos mesmos catálogos. Os três masters originais mais o plugin produziram, na comparação estrutural, os mesmos registros efetivos e os mesmos **2.884 grupos de diálogo / 31.822 INFOs** dos masters localizados. A ordenação de respostas, filtros, IDs e scripts foi comparada; somente os ponteiros PNAM/NNAM foram normalizados para representar a ordem consolidada.
+
+Em perfil de teste isolado, com a pasta dos masters originais e o novo ESP, passaram novamente **3.223 verificações** e a compilação de **15.570/15.570 scripts de diálogo**. O erro preexistente `Museum` continua sendo a única falha entre 1.207 scripts gerais. O parser independente `esmtool` também leu o plugin. Isso não substitui testar missões do início ao fim.
+
+A interface completa nesse teste usou `preferred locales = pt_BR, en` e o fragmento de fallbacks. Na instalação do jogador, esses são ajustes adicionais descritos no guia. Os `.qm` do launcher são opcionais e separados.
